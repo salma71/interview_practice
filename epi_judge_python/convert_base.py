@@ -1,4 +1,6 @@
 from test_framework import generic_test
+import functools
+import string
 
 
 def convert_base(num_as_string: str, b1: int, b2: int) -> str:
